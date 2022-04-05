@@ -42,6 +42,7 @@ router.get('/getsheet',async function(req, res, next){
                 title:  e[1],
                 artist: e[2],
                 url: e[3],
+                id: e[4],
             })
         }
     })
